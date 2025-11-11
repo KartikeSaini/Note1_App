@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="search_bar_design">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/round_icon</item>
+        <item name="android:elevation">9dp</item>
+    </style>
+
+
+</resources>

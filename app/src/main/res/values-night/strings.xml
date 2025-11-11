@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="or_register_with">Or Register With</string>
+    <string name="register_to_get_started">Register to get started</string>
+    <string name="sign_up_here">Sign Up here</string>
+    <string name="username">Username</string>
+    <string name="proceed">Proceed</string>
+</resources>

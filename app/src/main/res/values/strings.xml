@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="file_not_found_try_search_again">File not found. Try search again...</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="login">Login</string>
+    <string name="or_login_with">Or Continue With Account</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_otp">Enter Otp here</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="type_something">Type something...</string>
+    <string name="title">Title</string>
+    <string name="welcome_make_your_notes_here">Welcome, Make your Notes here!</string>
+    <string name="or_register_with">Or Register With</string>
+    <string name="back_to_login">back to login</string>
+    <string name="hello">Hello!</string>
+    <string name="register_to_get_started">Register to get started</string>
+    <string name="sign_up_here">Sign Up here</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="google_register">google register</string>
+    <string name="facebook_register">facebook register</string>
+    <string name="username">Username</string>
+    <string name="login_now">Login Now</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="proceed">Proceed</string>
+</resources>
