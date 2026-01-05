@@ -1,44 +1,43 @@
-📝 NOTES APP (ANDROID)
+# 📝 NOTES APP (ANDROID)
 
-A modern Notes Application built using Kotlin for Android that allows users to securely sign up, sign in, and manage their personal notes efficiently. The app follows MVVM architecture and provides a clean, user-friendly interface.
+A modern **Notes Application** built using **Kotlin** for Android that allows users to securely sign up, sign in, and manage their personal notes efficiently. The app follows **MVVM architecture** and focuses on clean UI and scalable code structure.
 
-🚀 Features
+---
 
-🔐 User Authentication
+## 🚀 FEATURES
 
-  Sign Up & Sign In using Email
+* 🔐 **USER AUTHENTICATION**
 
-  Phone Number Login support
+  * Sign Up & Sign In using Email
+  * Phone Number Login support
+* 🗒️ **NOTES MANAGEMENT**
 
-🗒️ Notes Management
+  * Create, edit, and delete notes
+  * View notes in a clean list layout
 
-  Create, edit, and delete notes
+* 🧭 **SMOOTH NAVIGATION**
 
-  View notes in a clean list layout
+  * Splash Screen
+  * Fragment-based navigation
+* ♻️ **RECYCLERVIEW** for efficient list handling
+* 🧠 **MVVM ARCHITECTURE** for better maintainability
 
-Splash Screen
+---
 
-  Fragment-based navigation
+## 🛠️ TECH STACK
 
-♻️ RecyclerView for displaying notes efficiently
+* **Language:** Kotlin
+* **Architecture:** MVVM (Model–View–ViewModel)
+* **UI:** XML Layouts, Fragments
+* **State Management:** ViewModel & LiveData
+* **Authentication:** Firebase Authentication
+* **Build Tool:** Gradle
 
-🧠 MVVM Architecture for clean and scalable code
+---
 
-🛠️ Tech Stack
+## 📂 PROJECT STRUCTURE
 
-  Language: Kotlin
-
-  Architecture: MVVM (Model–View–ViewModel)
-
-  UI: XML, Fragments
-
-  State Management: ViewModel & LiveData
-
-  Backend / Auth: Firebase Authentication
-
-  Build System: Gradle (KTS)
-
-📂 Project Structure
+```
 com.note.app
 │
 ├── activities
@@ -63,60 +62,65 @@ com.note.app
 ├── repositories
 │   └── EditorNoteRepository.kt
 │
-├── pojo
+├── models
 │   ├── Note.kt
 │   └── UserRegistration.kt
-📸 Screens Included
+```
 
-LOGIN \ SIGNUP SCREEN
+---
 
-<img width="381" height="834" alt="Screenshot 2026-01-05 164833" src="https://github.com/user-attachments/assets/e0291536-2db1-4a38-9cb8-47b7bea510b5" />
+## 📸 SCREENS INCLUDED
 
-PHONE LOGIN SCREEN
+* Login / Signup Screen
+  
+    <img width="381" height="834" alt="Screenshot 2026-01-05 164833" src="https://github.com/user-attachments/assets/8754ba86-1485-4a74-b2ce-85eb7101f9ce" />
+    
+* Phone Login Screen
 
-<img width="372" height="835" alt="Screenshot 2026-01-05 165019" src="https://github.com/user-attachments/assets/6019b024-8ee4-4b68-9f53-ef6aa5a6a0a5" />
+    <img width="372" height="835" alt="Screenshot 2026-01-05 165019" src="https://github.com/user-attachments/assets/9578a97e-191b-41a1-ac26-548742d26bfb" />
 
-NOTES HOME SCREEN
+* Notes Home Screen
 
-<img width="378" height="833" alt="Screenshot 2026-01-05 165150" src="https://github.com/user-attachments/assets/e27abc37-2922-4dc9-b46a-c20442a887e5" />
+    <img width="378" height="833" alt="Screenshot 2026-01-05 165150" src="https://github.com/user-attachments/assets/b48073b5-4b76-4bb5-8cdf-c43b81d27949" />
 
-ADD \ EDIT NOOTE SCREEN
+* Add / Edit Note Screen
+  
+    <img width="377" height="835" alt="Screenshot 2026-01-05 165218" src="https://github.com/user-attachments/assets/66b38058-ca94-449b-b894-8310c811487a" />
 
-<img width="375" height="835" alt="Screenshot 2026-01-05 165205" src="https://github.com/user-attachments/assets/cba8fa28-bb41-4044-858d-0c820d99c3c4" />
+---
 
 
-✅ How to Run the Project
+## ✅ HOW TO RUN THE PROJECT
 
-  Clone the repository
+1. Clone the repository
 
-  git clone <your-repo-url>
+   ```bash
+   git clone https://github.com/KartikeSaini/photoGalleryApp.git
+   ```
+2. Open the project in **Android Studio**
+3. Sync Gradle files
+4. Configure Firebase (`google-services.json`)
+5. Run the app on an emulator or physical device ▶️
 
-  Open the project in Android Studio
+---
 
-  Sync Gradle files
+## 🎯 LEARNING OUTCOMES
 
-  Connect a physical device or emulator
+* Understanding **MVVM architecture** in Android
+* Working with **Fragments & RecyclerView**
+* Implementing **Firebase Authentication**
+* Writing clean and maintainable Kotlin code
 
-  Run the app ▶️
+---
 
-⚠️ Make sure Firebase is properly configured (google-services.json already included).
+## 👨‍💻 AUTHOR
 
-🎯 Learning Outcomes
-
-  Practical understanding of MVVM architecture
-
-  Working with Fragments & RecyclerView
-
-  Firebase Authentication integration
-
-  Clean code structure and separation of concerns
-
-👨‍💻 Author
-
-Kartike Saini
+**Kartike Saini**
 Android Developer | Kotlin
-📧 Email: kartikesaini2304@gmail.com
+📧 Email: [kartikesaini2304@gmail.com](mailto:kartikesaini2304@gmail.com)
 
-⭐ If you like this project
+---
 
-Give it a ⭐ on GitHub and feel free to fork or contribute!
+## ⭐ SUPPORT
+
+If you like this project, give it a ⭐ on GitHub and feel free to fork or contribute!
